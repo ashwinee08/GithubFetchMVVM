@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:clickable="true">
+    <TextView
+        android:id="@+id/issue_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:text="Title"/>
+    <TextView
+        android:id="@+id/description"
+        android:text="Description is placed here upto 140 characters there after they will be ellipsized"
+        android:textSize="19sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLength="140"/>
+    <TextView
+        android:text="Read_more..."
+        android:paddingTop="5dp"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
